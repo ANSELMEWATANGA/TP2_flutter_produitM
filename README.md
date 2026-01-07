@@ -1,12 +1,36 @@
-lib/
-├── main.dart                 # Point d'entrée de l'app
-├── firebase_options.dart     # Configuration Firebase
-├── models/
-│   └── product_model.dart    # Modèle de données Produit
-├── pages/
-│   ├── login_page.dart       # Page de connexion
-│   ├── signup_page.dart      # Page d'inscription
-│   └── menu_page.dart        # Page principale de gestion des produits
-└── services/
-    ├── auth_service.dart     # Service d'authentification
-    └── firestore_service.dart # Service Firestore pour les produits
+1. Résumé des fonctionnalités implémentées
+    
+✅ Authentification:
+
+Email/mot de passe avec validation
+
+Google Sign-In
+
+Persistance avec SharedPreferences
+
+✅ Pages:
+
+Login Screen avec validation
+
+Sign-Up Screen avec validation
+
+Menu Screen avec navigation
+
+✅ Base de données:
+
+Firestore pour les produits
+
+CRUD complet (Create, Read, Update, Delete)
+
+Stream pour les mises à jour en temps réel
+
+✅ Menu:
+
+Ajout de produits avec formulaire
+Liste des produits avec cards
+
+Suppression de produits
+
+Liste des produits avec cards
+
+Suppression de produits
